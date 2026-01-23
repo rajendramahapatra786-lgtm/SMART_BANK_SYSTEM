@@ -2,31 +2,84 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Smart Bank System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Bank – Zen Dashboard</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="container">
-        <h1>🏦 Smart Bank System</h1>
+<div class="container">
 
-        <div class="card">
-            <h2>Customer Details</h2>
-            <p><strong>Name:</strong> Rajendra Mahapatra</p>
-            <p><strong>Account No:</strong> 1234567890</p>
-            <p><strong>Balance:</strong> ₹69000</p>
+    <!-- HEADER -->
+    <div class="header">
+        <h1>🏦 Smart Bank</h1>
+        <p class="tagline">Smart • Secure • Reliable</p>
+
+        <div class="trust">
+            <span>🔒 SSL Secured</span>
+            <span>🛡 ISO Certified</span>
+            <span>🏦 RBI Compliant</span>
         </div>
-
-        <div class="actions">
-            <button>Deposit ₹5000</button>
-            <button>Withdraw ₹1000</button>
-        </div>
-
-        <p class="note">
-            ⚠ This UI represents frontend.  
-            Backend logic is implemented using Python OOP.
-        </p>
     </div>
+
+    <!-- DASHBOARD -->
+    <div class="dashboard">
+
+        <!-- PROFILE SECTION -->
+        <div class="profile">
+            <h2>Customer Overview</h2>
+
+            <div class="user">
+                <div class="avatar">RM</div>
+                <div>
+                    <strong>Rajendra Mahapatra</strong><br>
+                    <span class="badge">Premium Savings</span>
+                </div>
+            </div>
+
+            <div class="row">
+                <span>Account No</span>
+                <span>1234567890</span>
+            </div>
+
+            <div class="row balance">
+                <span>Balance</span>
+                <span>₹69,000</span>
+            </div>
+
+            <div class="transactions">
+                <h3>Recent Transactions</h3>
+                <div class="tx plus"><span>+ ₹5,000</span><span>Deposit</span></div>
+                <div class="tx minus"><span>- ₹1,000</span><span>Withdraw</span></div>
+                <div class="tx plus"><span>+ ₹2,000</span><span>Transfer</span></div>
+            </div>
+        </div>
+
+        <!-- ACTIONS SECTION -->
+        <div class="actions-panel">
+            <div>
+                <h3>Quick Actions</h3>
+                <div class="actions">
+                    <button class="deposit">Deposit</button>
+                    <button class="withdraw">Withdraw</button>
+                </div>
+            </div>
+
+            <div class="meta">
+                Last login:<br>
+                23 Jan 2026 • 10:45 AM<br><br>
+                Theme: Zen Mode 🌿
+            </div>
+        </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+        UI Prototype • Backend implemented using Python (OOP)
+    </div>
+
+</div>
 
 </body>
 </html>
