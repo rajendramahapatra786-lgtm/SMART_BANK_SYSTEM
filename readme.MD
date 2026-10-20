@@ -101,6 +101,3 @@ This project can be used to demonstrate:
 
 **Rajendra Mahapatra**
 
----
-
-⭐ If you found this project useful, consider giving it a star on GitHub.
