@@ -25,6 +25,8 @@ The project contains functionality related to:
 - Python
 - HTML/CSS/JavaScript
 
+---
+
 ## 📁 Project Structure
 
 The project archive contains the following main files and directories:
@@ -80,10 +82,13 @@ Then open the local address shown in the terminal, usually:
 ```text
 http://127.0.0.1:8000/
 ```
+---
 
 ## 🔐 Security Note
 
 This project is intended for **educational and development purposes**. Do not use it for real banking, financial transactions, or storage of real customer credentials without implementing production-grade security, encryption, authorization, auditing, and regulatory requirements.
+
+---
 
 ## 🎯 Purpose
 
@@ -97,7 +102,13 @@ This project can be used to demonstrate:
 - Web application development
 - Project structure and version control
 
+---
+
 ## 👨‍💻 Author
 
 **Rajendra Mahapatra**
 
+---
+## ⭐ Support
+
+**If you like this project, consider giving the repository a ⭐ on GitHub!**
